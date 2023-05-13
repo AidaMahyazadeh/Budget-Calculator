@@ -110,11 +110,8 @@ setId(id);
        clearItems ={clearItems}
        />
     </main>
-    <h1>
-        total spending :
-        <span className="total">
         <h1>
-        total spending :
+        Total spending :
         <span className="total">
           $
           {expenses.reduce((acc, curr) => {
@@ -122,8 +119,7 @@ setId(id);
           }, 0)}
         </span>
       </h1>
-        </span>
-      </h1>
+       
     </>
   );
 }

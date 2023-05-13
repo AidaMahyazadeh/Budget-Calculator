@@ -33,8 +33,8 @@ return(
         </div> 
         <button type="submit" className="btn">
            {edit ? 'Edit' : 'Submit'}
+           <MdSend className="btn-icon" />
             </button>
-        <MdSend className="btn-icon" />
     </form>
 )
 }
